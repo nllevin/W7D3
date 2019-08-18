@@ -21,6 +21,7 @@ class HashMap
       self.count += 1 
       resize! if count == num_buckets
     end
+    val
   end
 
   def get(key)
